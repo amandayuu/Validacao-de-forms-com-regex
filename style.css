@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body{
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);
+    background-color: rgba(251, 228, 243, 1);
+    transition: 0.5s;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.card:hover{
+    background-color: rgba(223, 200, 215, 1);
+}
+
+.card-header{
+    height: 5rem;
+    background-color: rgba(239, 220, 250, 1);
+    padding-top: 2rem;
+}
+
+h2 .card-header{
+    font-weight: bold;
+}
+.card-content{
+    padding-bottom: 1.5rem;
+    display: inline-block;
+}
+
+input{
+    border-radius: 5px;
+    border: 1px solid #eee;
+    /*  If the outline isn't none, when the input is on evidence, a frame will apear */
+    outline: none;   
+    height: 1.5rem;
+}
+
+/* In this case this style is only apply when the input is SUBMIT type */
+input[type=submit]{
+    border-radius: 5px;
+    background-color:green;
+}
